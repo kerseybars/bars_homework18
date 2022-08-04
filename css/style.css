@@ -12,6 +12,7 @@ p{
     font-family: "Helvetica";
     font-size: 18pt;
     color: #272727;
+    text-align: left;
 }
 
 .header{
@@ -107,107 +108,75 @@ h5{
 #myuxSkills{
     background-color: #fee440;
     border: 2px solid #f7d601;
+    padding-bottom: 50px;
 }
+
 
 #myuxSkills h3{
     text-align: center;
 }
 
-
-.flexContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.mytravelBuddy img{
-    width: 700px;
-    display: inline-block;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-
 .mytravelBuddy {
     display: inline-flex;
-}
-
-#travelBuddy{
     background-color: #00BBF9;
     border: 2px solid #0086b3;
 }
 
-.travelbuddyText {
-    display: inline-block;
-    color: #272727;
-    padding-left: 12.5px;
-    padding-right: 12.5px;
-    padding-bottom: 25px;
-    font-family: Helvetica;
-    font-size: 18pt;
 
+.mytravelBuddy .card {
+    background-color: #00BBF9;
+    border: 2px solid #00bbf9;  
 }
 
-.Hume img{
-    width: 700px;
-    display: inline-block;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
+.mytravelBuddy .card-body{
+    background-color: #00BBF9;
+    border: 2px solid #00bbf9;  
 }
 
-#Hume{
+.mytravelBuddy .card-body img{
+    border: 2px solid #00bbf9; 
+}
+
+.Hume {
+    display: inline-flex;
     background-color: #00F5D4;
     border: 2px solid #009d8a;
-    padding-top: 50px;
-    padding-bottom: 25px; 
 }
-.Hume{
+
+.Hume .card{
+    background-color: #00F5D4;
+    border: 2px solid #00F5D4;
+}
+
+.Hume .card-body{
+    background-color: #00F5D4;
+    border: 2px solid #00F5D4;
+}
+
+.Hume .card-body img{
+    border: 2px solid #00F5D4;
+}
+
+.B4H {
     display: inline-flex;
-}
-
-.humeText{
-    display: inline-block;
-    color: #272727;
-    padding-left: 25px;
-    padding-right: 12.5px;
-    padding-bottom: 25px;
-    font-family: Helvetica;
-    font-size: 18pt;
-}
-
-
-.bikesforHumanity img{
-    width: 700px;
-    display: inline-block;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#b4h{
     border: solid 2px #da138a;
     background-color: #f15bb5;
-    padding-top: 50px;
-    padding-bottom: 25px; 
 }
 
-
-.bikesforHumanity{
-    display: inline-flex;
+.B4H .card {
+    background-color: #f15bb5;
+    border: solid 2px #f15bb5;
 }
 
-.bikesforhumanityText{
-    display: inline-block;
-    color: #272727;
-    padding-left: 25px;
-    padding-right: 12.5px;
-    padding-bottom: 25px;
-    font-family: Helvetica;
-    font-size: 18pt;
+.B4H .card-body{
+    background-color: #f15bb5;
+    border: solid 2px #f15bb5;
 }
+
+.B4H .card-body img{
+    border: solid 2px #f15bb5; 
+}
+
 
 #moreWork{
     background-color: #fee440;
@@ -264,3 +233,18 @@ h5{
 #footer h5{
     text-align: center;
 }
+
+.btn{
+    background-color: white;
+    color: #272727;
+    border: 2px solid black;
+    align-content: center;
+    font-family: Helvetica;
+}
+
+.btn:hover{
+    background-color:#272727;
+    border-color: black;
+    color: white;
+}
+
